@@ -1,0 +1,11 @@
+body { /*Style for body*/
+    background-color: black;
+  }
+
+  h1 { /*Style for h1*/
+    color: red;
+  }
+
+  p { /*Style for paragraph*/
+    color: white;
+  }
