@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="cssStyles.css">
+    <title>Horror game</title>
+</head>
+<body>
+    <script>
+        // Obtener el valor del parámetro "progreso" de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var progreso = urlParams.get('progreso');
+        
+        // Mostrar el valor del progreso en la página
+        document.write("<p>El progreso es: " + progreso + "%</p>");
+    </script>
+
+</body>
+</html>

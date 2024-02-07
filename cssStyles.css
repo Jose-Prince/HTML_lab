@@ -9,3 +9,17 @@ body { /*Style for body*/
   p { /*Style for paragraph*/
     color: white;
   }
+
+  /*Variable definition*/
+  :root {
+    --progreso: 0; /*Initial value*/
+  }
+
+  progress[value] {
+    --progreso: calc(min(100, max(0, var(--progreso)))* 1%);
+  }
+
+  progress[value]::-webkit-progress-value{
+    background-color: aqua;
+    width: var(--progreso);
+  }
