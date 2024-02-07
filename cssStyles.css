@@ -1,13 +1,15 @@
 body { /*Style for body*/
-    background-color: black;
+    background-color: rgb(250, 249, 249);
+    background-image: url('https://i.ytimg.com/vi/mGiHyi8_Qq8/maxresdefault.jpg');
+    background-size: cover; 
   }
 
   h1 { /*Style for h1*/
-    color: red;
+    color: rgb(37, 145, 23);
   }
 
   p { /*Style for paragraph*/
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   /*Variable definition*/
