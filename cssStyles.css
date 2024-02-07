@@ -12,16 +12,10 @@ body { /*Style for body*/
     color: rgb(0, 0, 0);
   }
 
-  /*Variable definition*/
-  :root {
-    --progreso: 0; /*Initial value*/
+  progress {
+    width: 100%;
   }
 
-  progress[value] {
-    --progreso: calc(min(100, max(0, var(--progreso)))* 1%);
-  }
-
-  progress[value]::-webkit-progress-value{
-    background-color: aqua;
-    width: var(--progreso);
+  .dead {
+    color: red;
   }
