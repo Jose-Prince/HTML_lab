@@ -19,3 +19,7 @@ body { /*Style for body*/
   .dead {
     color: red;
   }
+
+  .alive{
+    color: rgb(110, 206, 110);
+  }
